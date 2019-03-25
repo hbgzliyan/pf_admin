@@ -88,11 +88,15 @@ class NewsController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->cid('cid','分类');
+        $grid->cid('分类')->label();
         $grid->source('来源');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');
+
+        $grid->filter(function ($filter) {
+            $filter->equal('cid', '分类')->select(Category::selectOptions()); //用名称作为条件模糊查询
+        });
 
         return $grid;
     }

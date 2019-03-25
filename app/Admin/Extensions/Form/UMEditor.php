@@ -35,11 +35,7 @@ class UMEditor extends Field
             wordCount: false,
             imagePopup: false,
             autotypeset: {indent: true, imageBlockLine: 'center'}
-        }); 
-        UM.ready(function () {
-            ue.execCommand('serverparam', '_token', '{{ csrf_token() }}');
         });
-
 EOT;
         return parent::render();
     }

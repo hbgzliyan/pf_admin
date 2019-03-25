@@ -17,4 +17,5 @@ Route::group([
     $router->resource('/fund', 'FundController');
     $router->resource('/fundNotice', 'FundNoticeController');
     $router->resource('/fundGroup', 'FundGroupController');
+    $router->resource('/news', 'NewsController');
 });

@@ -88,7 +88,7 @@ class NewsController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->cid('分类');
+        $grid->cid('cid','分类');
         $grid->source('来源');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
@@ -129,7 +129,7 @@ class NewsController extends Controller
 
         $form->display('id', 'ID');
         $form->text('title', "标题")->rules('required');
-        $form->select('cid')->options(Category::selectOptions());
+        $form->select('cid')->options(Category::selectOptions())->value(request('cid'));
         $form->text('source','来源');
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;

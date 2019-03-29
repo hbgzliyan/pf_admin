@@ -86,7 +86,7 @@ class FundNoticeController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->code('基金代码');
+        $grid->code('基金代码')->label();
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');
@@ -106,7 +106,7 @@ class FundNoticeController extends Controller
 
         $show->id('ID');
         $show->title('标题');
-        $show->code('基金代码');
+        $show->code('基金代码')->label();
         $show->release_at('发布时间');
         $show->created_at('创建时间');
         $show->updated_at('修改时间');
@@ -125,7 +125,7 @@ class FundNoticeController extends Controller
 
         $form->display('id', 'ID');
         $form->text('title', "标题")->rules('required');;
-        $form->select('code','基金代码')->options(Fund::all()->pluck('name', 'code'));
+        $form->multipleSelect('code','基金代码')->options(Fund::all()->pluck('name', 'code'));
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;
 

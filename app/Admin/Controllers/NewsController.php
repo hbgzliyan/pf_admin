@@ -88,7 +88,7 @@ class NewsController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->cid('分类')->label();
+        $grid->cid("分类")->label();
         $grid->source('来源');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');

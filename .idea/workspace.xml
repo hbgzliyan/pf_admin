@@ -84,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="449">
-              <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+              <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -413,7 +413,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555319646225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555319722473" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -463,12 +463,12 @@
       <workItem from="1552979102238" duration="6944000" />
       <workItem from="1553484955465" duration="9160000" />
       <workItem from="1553744318142" duration="2475000" />
-      <workItem from="1555310493360" duration="4873000" />
+      <workItem from="1555310493360" duration="4949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40795000" />
+    <option name="totallyTimeSpent" value="40871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,7 +860,7 @@
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
-          <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
         </state>
       </provider>
     </entry>

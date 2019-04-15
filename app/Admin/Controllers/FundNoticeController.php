@@ -33,7 +33,7 @@ class FundNoticeController extends Controller
     /**
      * Show interface.
      *
-     * @param mixed   $id
+     * @param mixed $id
      * @param Content $content
      * @return Content
      */
@@ -48,7 +48,7 @@ class FundNoticeController extends Controller
     /**
      * Edit interface.
      *
-     * @param mixed   $id
+     * @param mixed $id
      * @param Content $content
      * @return Content
      */
@@ -96,7 +96,7 @@ class FundNoticeController extends Controller
     /**
      * Make a show builder.
      *
-     * @param mixed   $id
+     * @param mixed $id
      * @return Show
      */
     protected function detail($id)
@@ -125,13 +125,14 @@ class FundNoticeController extends Controller
         $form->display('id', 'ID');
         $form->text('title', "标题")->rules('required');
         $form->text('publisher', "发布者")->rules('required');
-        $form->file('doc', "文档路径");
+        $form->file('doc', "文档路径")->uniqueName()->rules('required');
+
         $form->radio('is_zh', '专户')->options([
             0 => '不是',
             1 => '是'
         ])->stacked();
 
-        $form->multipleSelect('code','基金代码')->options(Fund::all()->pluck('name', 'code'));
+        $form->multipleSelect('code', '基金代码')->options(Fund::all()->pluck('name', 'code'));
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;
 

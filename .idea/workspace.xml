@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72025c24-b443-40f0-aa3f-847140fd6f92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/HotWords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pf_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pf_admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/doctrine-dbal" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/doctrine-dbal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/php-parse" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/php-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/psysh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/psysh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/var-dump-server" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/var-dump-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +41,14 @@
           <entry key="env" value="70" />
           <entry key="js" value="43" />
           <entry key="json" value="6" />
-          <entry key="php" value="2063" />
+          <entry key="php" value="2094" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="43" />
-          <entry key="PHP" value="2063" />
+          <entry key="PHP" value="2094" />
           <entry key="PLAIN_TEXT" value="114" />
         </counts>
       </usages-collector>
@@ -62,16 +62,18 @@
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="148" />
+          <entry key="php" value="169" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
+          <entry key="Image" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="8" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="149" />
+          <entry key="PHP" value="170" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -83,31 +85,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/AutoloaderTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-              <folding>
-                <element signature="e#41#77#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="479">
+              <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Fund.php">
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/DrawingTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/FileTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
-            </state>
+            <state relative-caret-position="-135" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/News.php">
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/XMLReaderTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="193">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="134" column="105" selection-start-line="134" selection-start-column="66" selection-end-line="134" selection-end-column="105" />
+            <state relative-caret-position="678">
+              <caret line="134" column="8" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
               <folding>
                 <element signature="e#41#77#0#PHP" expanded="true" />
               </folding>
@@ -125,55 +132,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/XMLWriterTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/Microsoft/PasswordEncoderTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-end-line="23" />
-            </state>
+            <state relative-caret-position="-557" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundGroupController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="127" column="81" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="81" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/FontTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/HotWords.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CompanyTrendsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1367" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/TextTest.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -268,12 +245,12 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Admin/Extensions/Form/UMEditor.php" />
         <option value="$PROJECT_DIR$/app/Models/FundNotice.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php" />
         <option value="$PROJECT_DIR$/app/Admin/Controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/app/Models/Fund.php" />
         <option value="$PROJECT_DIR$/app/Models/HotWords.php" />
-        <option value="$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php" />
         <option value="$PROJECT_DIR$/app/Admin/routes.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php" />
+        <option value="$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php" />
       </list>
     </option>
   </component>
@@ -373,9 +350,14 @@
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/summernote" />
+      <path value="$PROJECT_DIR$/vendor/pclzip/pclzip" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -429,72 +411,7 @@
             <path>
               <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="umeditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="umeditor" type="462c0819:PsiDirectoryNode" />
-              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="umeditor" type="462c0819:PsiDirectoryNode" />
-              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
-              <item name="emotion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="umeditor" type="462c0819:PsiDirectoryNode" />
-              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
-              <item name="formula" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="umeditor" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="encore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pf_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pf_admin" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="encore" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -505,7 +422,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555310908904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555319432252" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -555,12 +472,12 @@
       <workItem from="1552979102238" duration="6944000" />
       <workItem from="1553484955465" duration="9160000" />
       <workItem from="1553744318142" duration="2475000" />
-      <workItem from="1555310493360" duration="408000" />
+      <workItem from="1555310493360" duration="4674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36330000" />
+    <option name="totallyTimeSpent" value="40596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,7 +489,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="-14" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49867022" visible="true" weight="0.25608012" />
@@ -677,83 +594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="315" column="6" selection-start-line="315" selection-start-column="6" selection-end-line="315" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Channel.php" />
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/src/Traits/AdminBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/config/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/encore/laravel-admin/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-696">
-            <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1643">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/session.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/view.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -869,16 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="85" column="43" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="43" />
-          <folding>
-            <element signature="e#41#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/FundNotice.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -890,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -935,11 +758,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <element signature="e#41#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundGroupController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="127" column="81" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="81" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CompanyTrendsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1367" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CategoryController.php">
@@ -952,32 +797,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/CompanyTrendsController.php">
+    <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1367" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" selection-end-line="23" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/resources/images/PHPPowerPointLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/Adapter/Zip/ZipArchiveAdapterTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/_includes/TestHelperZip.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/_includes/XmlDocument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1832" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/Adapter/Zip/PclZipAdapterTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/Microsoft/PasswordEncoderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/AutoloaderTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/DrawingTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/FileTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/FontTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/TextTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/XMLReaderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpoffice/common/tests/Common/Tests/XMLWriterTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="134" column="105" selection-start-line="134" selection-start-column="66" selection-end-line="134" selection-end-column="105" />
+        <state relative-caret-position="678">
+          <caret line="134" column="8" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
           <folding>
             <element signature="e#41#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/HotWordsController.php">
+    <entry file="file://$PROJECT_DIR$/app/Admin/Controllers/FundNoticeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-end-line="23" />
+        <state relative-caret-position="479">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -123,7 +123,15 @@ class FundNoticeController extends Controller
         $form = new Form(new FundNotice);
 
         $form->display('id', 'ID');
-        $form->text('title', "标题")->rules('required');;
+        $form->text('title', "标题")->rules('required');
+        $form->text('publisher', "发布者")->rules('required');
+
+        $form->text('publisher', "发布者")->rules('required');
+        $form->radio('is_zh')->options([
+            0 => '不是',
+            1 => '是'
+        ])->stacked();
+
         $form->multipleSelect('code','基金代码')->options(Fund::all()->pluck('name', 'code'));
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;

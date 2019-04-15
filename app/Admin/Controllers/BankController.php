@@ -26,8 +26,7 @@ class BankController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('银行列表')
             ->body($this->grid());
     }
 

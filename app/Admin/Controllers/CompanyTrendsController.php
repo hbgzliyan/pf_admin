@@ -15,7 +15,7 @@ use Encore\Admin\Grid;
 use Encore\Admin\Layout\Content;
 use Encore\Admin\Show;
 
-class NewsController extends Controller
+class CompanyTrendsController extends Controller
 {
     use HasResourceActions;
 
@@ -28,8 +28,7 @@ class NewsController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('新闻')
-            ->description('description')
+            ->header('公司动态')
             ->body($this->grid());
     }
 

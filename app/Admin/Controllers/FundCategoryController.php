@@ -24,8 +24,7 @@ class FundCategoryController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('基金类别管理')
             ->body($this->grid());
     }
 

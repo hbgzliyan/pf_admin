@@ -24,8 +24,7 @@ class FundManagerController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('基金经理人')
             ->body($this->grid());
     }
 

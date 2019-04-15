@@ -21,7 +21,7 @@ class CategoryController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('All categories')
+            ->header('导航管理')
             ->body($this->tree());
     }
 

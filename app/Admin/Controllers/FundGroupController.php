@@ -28,7 +28,6 @@ class FundGroupController extends Controller
     {
         return $content
             ->header('基金组合')
-            ->description('description')
             ->body($this->grid());
     }
 

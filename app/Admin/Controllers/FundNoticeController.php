@@ -127,7 +127,7 @@ class FundNoticeController extends Controller
         $form->text('publisher', "发布者")->rules('required');
 
         $form->text('publisher', "发布者")->rules('required');
-        $form->radio('is_zh')->options([
+        $form->radio('is_zh', '是否是专户')->options([
             0 => '不是',
             1 => '是'
         ])->stacked();

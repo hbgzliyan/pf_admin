@@ -81,7 +81,7 @@ class HotWordsController extends Controller
      */
     protected function grid()
     {
-        $grid = new Grid(new Fund);
+        $grid = new Grid(new HotWords);
 
         $grid->id('ID')->sortable();
         $grid->name('name');

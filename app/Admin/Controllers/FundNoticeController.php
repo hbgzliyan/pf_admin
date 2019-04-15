@@ -125,8 +125,7 @@ class FundNoticeController extends Controller
         $form->display('id', 'ID');
         $form->text('title', "标题")->rules('required');
         $form->text('publisher', "发布者")->rules('required');
-
-        $form->text('publisher', "发布者")->rules('required');
+        $form->file('doc', "文档路径");
         $form->radio('is_zh', '专户')->options([
             0 => '不是',
             1 => '是'

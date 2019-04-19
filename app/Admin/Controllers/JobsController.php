@@ -3,8 +3,6 @@
 namespace App\Admin\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\FundCategory;
-use App\Models\FundManager;
 use App\Models\Jobs;
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Form;

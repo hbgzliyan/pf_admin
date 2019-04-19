@@ -7,6 +7,7 @@ use App\Models\Fund;
 use App\Models\FundCategory;
 use App\Models\FundManager;
 use App\Models\FundNotice;
+use App\Models\Genre;
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -86,6 +87,7 @@ class FundNoticeController extends Controller
         $grid->id('ID')->sortable();
         $grid->title('标题');
         $grid->code('基金代码')->label();
+        $grid->genre_id('公告分类')->pluck('name', 'id');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');
@@ -133,6 +135,7 @@ class FundNoticeController extends Controller
         ])->stacked();
 
         $form->multipleSelect('code', '基金代码')->options(Fund::all()->pluck('name', 'code'));
+        $form->select('genre', '公告分类')->options(Genre::all())->pluck('name', 'id');
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;
 

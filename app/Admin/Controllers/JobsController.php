@@ -83,7 +83,7 @@ class JobsController extends Controller
         $grid = new Grid(new FundManager);
 
         $grid->id('ID')->sortable();
-        $grid->name('职位');
+        $grid->title('职位');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');
 
@@ -101,7 +101,7 @@ class JobsController extends Controller
         $show = new Show(Jobs::findOrFail($id));
 
         $show->id('ID');
-        $show->name('职位');
+        $show->title('职位');
         $show->desc('描述');
         $show->created_at('创建时间');
         $show->updated_at('修改时间');
@@ -119,7 +119,7 @@ class JobsController extends Controller
         $form = new Form(new Jobs);
 
         $form->display('id', 'ID');
-        $form->text('name', "标题");
+        $form->text('title', "标题");
         $form->summernote('desc', '描述');
         return $form;
     }

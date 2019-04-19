@@ -86,8 +86,8 @@ class FundNoticeController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->code('基金代码')->label();
-        $grid->genre_id('公告分类')->pluck('name', 'id');
+        $grid->code('代码')->label();
+        $grid->genre_id('分类')->pluck('name', 'id');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');

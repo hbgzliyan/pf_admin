@@ -87,6 +87,15 @@ class FundController extends Controller
         $grid->code('基金代码');
 //        $grid->category_id('基金类别')->pluck('name')->label();
         $grid->type('基金类型');
+        $states = [
+            'on' => ['text' => 'YES'],
+            'off' => ['text' => 'NO'],
+        ];
+
+        $grid->column('switch_group')->switchGroup([
+            'recommend' => '推荐', 'hot' => '热销', 'new' => '最新'
+        ], $states);
+
         $grid->risk_level('基金风险');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');

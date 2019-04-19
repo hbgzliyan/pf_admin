@@ -19,9 +19,4 @@ class FundNotice extends Model
     {
         $this->attributes['code'] = implode(',', $value);
     }
-
-    public function genre()
-    {
-        return $this->hasOne(Genre::class);
-    }
 }

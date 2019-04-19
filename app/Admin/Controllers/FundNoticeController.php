@@ -85,7 +85,10 @@ class FundNoticeController extends Controller
         $grid = new Grid(new FundNotice);
 
         $grid->id('ID')->sortable();
-        $grid->title('标题');
+        $grid->title('标题')->display(function($text) {
+            return str_limit($text, 30, '...');
+        });
+
         $grid->code('代码')->label();
         $grid->genre_id('分类')->pluck('name', 'id');
         $grid->release_at('发布时间');

@@ -20,5 +20,5 @@ Route::group([
     $router->resource('/news', 'NewsController');
     $router->resource('/bank', 'BankController');
     $router->resource('/hotWords', 'HotWordsController');
-    $router->resource('/jobs', 'JobsHotWordsController');
+    $router->resource('/jobs', 'JobsController');
 });

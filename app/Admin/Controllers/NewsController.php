@@ -8,6 +8,7 @@ use App\Models\Fund;
 use App\Models\FundCategory;
 use App\Models\FundManager;
 use App\Models\FundNotice;
+use App\Models\Genre;
 use App\Models\News;
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Form;
@@ -88,7 +89,10 @@ class NewsController extends Controller
 
         $grid->id('ID')->sortable();
         $grid->title('标题');
-        $grid->cid("分类")->label();
+
+        $grid->cid('分类')->display(function($cid) {
+            return Category::find($cid)->name;
+        });
         $grid->source('来源');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');

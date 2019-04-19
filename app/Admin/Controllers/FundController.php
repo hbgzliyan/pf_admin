@@ -142,6 +142,9 @@ class FundController extends Controller
         $form->text('risk_level', '风险等级');
         $form->datetime('found_date', '成立时间');
         $form->multipleSelect('fand_manager_ids','基金经理')->options(FundManager::all()->pluck('name', 'id'));
+        $form->switch('recommend');
+        $form->switch('hot');
+        $form->switch('new');
         $form->textarea('target', '投资目标')->rules('required');
         $form->textarea('idea', '投资理念')->rules('required');
         $form->textarea('range', '投资范围')->rules('required');

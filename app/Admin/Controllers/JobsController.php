@@ -80,7 +80,7 @@ class JobsController extends Controller
      */
     protected function grid()
     {
-        $grid = new Grid(new FundManager);
+        $grid = new Grid(new Jobs);
 
         $grid->id('ID')->sortable();
         $grid->title('职位');

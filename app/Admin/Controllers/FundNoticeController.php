@@ -90,7 +90,9 @@ class FundNoticeController extends Controller
         });
 
         $grid->code('代码')->label();
-        $grid->genre()->name();
+        $grid->genre_id('分类')->display(function($genre_id) {
+            return Genre::find($genre_id)->name;
+        });
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');

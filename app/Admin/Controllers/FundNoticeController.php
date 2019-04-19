@@ -135,7 +135,7 @@ class FundNoticeController extends Controller
         ])->stacked();
 
         $form->multipleSelect('code', '基金代码')->options(Fund::all()->pluck('name', 'code'));
-        $form->select('genre', '公告分类')->options(Genre::all())->pluck('name', 'id');
+        $form->select('genre', '公告分类')->options(Genre::all())->value(request('id'));
         $form->datetime('release_at', '发布时间')->rules('required');;
         $form->umeditor('desc', '详情')->rules('required');;
 

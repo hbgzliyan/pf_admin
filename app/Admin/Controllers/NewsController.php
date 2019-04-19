@@ -91,7 +91,7 @@ class NewsController extends Controller
         $grid->title('标题');
 
         $grid->cid('分类')->display(function($cid) {
-            return Category::find($cid)->name;
+            return Category::find($cid)->title;
         });
         $grid->source('来源');
         $grid->release_at('发布时间');

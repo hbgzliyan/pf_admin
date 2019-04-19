@@ -10,7 +10,7 @@ Route::group([
     'middleware' => config('admin.route.middleware'),
 ], function (Router $router) {
 
-    $router->resource('/', 'FundController');
+    $router->resource('/', 'FundNoticeController');
     $router->resource('/category', 'CategoryController');
     $router->resource('/fundCategory', 'FundCategoryController');
     $router->resource('/fundManager', 'FundManagerController');

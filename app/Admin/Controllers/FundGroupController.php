@@ -85,7 +85,9 @@ class FundGroupController extends Controller
         $grid = new Grid(new FundGroup);
 
         $grid->id('ID')->sortable();
-        $grid->title('标题');
+        $grid->title('标题')->display(function($text) {
+            return str_limit($text, 30, '...');
+        });
         $grid->code('基金代码');
         $grid->release_at('发布时间');
         $grid->created_at('创建时间');
